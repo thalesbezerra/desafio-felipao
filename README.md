@@ -25,7 +25,7 @@ https://github.com/thalesbezerra/desafio-felipao
 * git push -u origin main
 
 * node index.js
- * ou
+- ou
 * node src/index.js
 * git add .
 * git commit -m "meu segundo commit"
