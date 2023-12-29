@@ -3,10 +3,11 @@
 …or create a new repository on the command line
 echo "# desafio-felipao" >> README.md
 
-* git init
+#git init
+
 * git add README.md
-git commit -m "first commit"
-git branch -M main
+* git commit -m "first commit"
+*git branch -M main
 git remote add origin https://github.com/thalesbezerra/desafio-felipao.git
 git push -u origin main
 
