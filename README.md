@@ -2,7 +2,8 @@
 
 …or create a new repository on the command line
 echo "# desafio-felipao" >> README.md
-git init
+
+* git init
 git add README.md
 git commit -m "first commit"
 git branch -M main
