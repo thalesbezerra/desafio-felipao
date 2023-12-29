@@ -20,7 +20,7 @@ if (xpDoHeroi < 1000) {
 } else if (xpDoHeroi >= 9001 && xpDoHeroi <= 10000) {
     nivel = "Imortal";
 } else {
-    nivel = "Radiante";
-
+    nivel = "Radiante"
+}
 // Exibe a mensagem com o nível do herói
 console.log("O Herói de nome " + nomeDoHeroi + " está no nível de " + nivel);
