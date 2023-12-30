@@ -77,3 +77,80 @@ Ao final deve se exibir uma mensagem:
  
  
 Bons estudos 😉
+
+## Codigo fonte das aulas de javascript
+
+torrar()
+
+
+function torrar() {
+    console.log("torrando o pão")
+    injetarPao()
+}
+
+function injetarPao() {
+    console.log("preparando para injetar o pão")
+    console.log("finalizado")
+}
+
+##
+
+function enviarDados() {
+    let nomeDoBanco = "banco-de-dados"
+    console.log("salvando dados em: : " + nomeDoBanco)
+}
+
+##
+torrar("pão de forma")
+torrar("pão integra")
+
+function torrar(pao) {
+    console.log("torrada feita com " + pao)
+}
+
+##
+torrar("pão integral", "Janaina")
+
+function torrar(pao, nome) {
+    console.log("torrar feita com " + pao)
+    console.log("ela é um pedido de " + nome)
+}
+
+##
+
+torrar("pão integral")
+
+function torrar(pao, nome = "Cliente") {
+    console.log("torrar feita com " + pao)
+    console.log("ela é um pedido de " + nome)
+    console.log(" ")
+}
+
+torrar("pão integral", "Janaina")
+
+function torrar(pao, nome = "Cliente") {
+    console.log("torrar feita com " + pao)
+    console.log("ela é um pedido de " + nome)
+    console.log(" ")
+}
+
+torrar("pão integral", "Janaina", 70)
+
+function torrar(pao, nome = "Cliente", valor) {
+    console.log("torrar feita com " + pao)
+    console.log("ela é um pedido de " + nome)
+    console.log("O Valor total é " + valor)
+    console.log(" ")
+}
+
+torrar("pão integral", 70)
+
+function torrar(pao, valor, nome = "Cliente") {
+    console.log("torrar feita com " + pao)
+    console.log("ela é um pedido de " + nome)
+    console.log("O Valor total é " + valor)
+    console.log(" ")
+}
+
+
+
